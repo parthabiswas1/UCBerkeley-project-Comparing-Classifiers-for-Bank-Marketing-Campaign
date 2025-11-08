@@ -69,23 +69,17 @@ What is the baseline performance that my classifier should aim to beat? I took t
 
 **Heuristic** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.86 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;0.27  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.14 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.19 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.547
 
+**MODEL COMPARISON METRICS USING DEFAULT SETTINGS**
+
+<img width="1802" height="207" alt="image" src="https://github.com/user-attachments/assets/b41e9605-9e24-41e2-8bd0-819f29fd3974" />
+
+**MODEL COMPARISON METRICS AFTER TUNING HYPERPARAMETERS**
+
+<img width="1814" height="199" alt="image" src="https://github.com/user-attachments/assets/1f8c8467-8f17-472a-a05c-5b23b0a453c9" />
 
 ## Recommendations
+Hyperparameter tuning did not improve the models much, Decision Tree showed the best F1 Score improvement (+0.064)
 
-- Create a marketing campaign targeting young adult drivers who frequently go to bars, are not economically well off, do not have kid and are employed in more urban settings.
-- Make the bar coupon more attractive to low income earners by increasing the discount rate or by combining it with resturant discount offers.
+**Logistic Regression** had the most balanced metrics (highest test accuracy, highest precision, good recall and highest AUC-0.80).
 
-## Obsevations - **Coffee House coupons**
-
-![Coffee House coupon acceptance rates](images/coffee_coupon_acceptance.png)
-
-- Frequent coffee house visitors (1 or more per month) accepted more coupons(64.73% - 68.24%)
-- Morning coffee house visitors (10AM) have a higher coupon acceptance rate (63.43%).
-- Irrespective of marital status, a high rate of acceptance(44.4% - 65.6%) among drivers who go to coffee houses in the morning (10AM).
-- Highest rate of acceptance (76.9%) is by divorced drivers who go to coffee houses late in the evening (10PM)
-- Drivers who have no urgent place to go in the morning (10AM) or late evening (10PM) have higher coupon acceptance rates (63.4% - 68.7%)
-- Young single females divers with some college earning less than $12.5k who went to coffee houses in the afternoon accepted coffee coupons at the highest rate
-- Overall **49.5%** of coffee house coupons were accepted. This shows that close to majority of the  drivers were interested in Coffee House coupons</li>
-
-## Recommendations
-- Run a targeted marketing campaign focused on young female drivers, drivers who frequented coffee houses often and drives to nowhere particular and divorcees who go to coffee houses late in the evening.
+SVM’s long runtime and lower metrics make it inefficient for production use.
