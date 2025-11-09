@@ -46,6 +46,10 @@ Combine transformations (ColumnTransformer) and create a Pipeline for processing
 ### GPU CPU Hybrid approach
 Model finetuning was long and did not complete in the instance of Support Vector Machine. So I took the approach of keeping LogisticRegression and DecisionTree on CPU and configured KNN and SVM to run on GPU
 
+### Missing data
+I did not want to drop missing data. rows and reduce the scope of the dataset. I wanted to understand if missing data is acutally meaningful. Is data missing becaue of a reason ?
+<img width="590" height="528" alt="Screenshot 2025-11-09 at 11 46 32 PM" src="https://github.com/user-attachments/assets/77592f39-18a0-4a26-9671-be035850d086" />
+
 ## Obsevations 
 
 ### Baseline Model
