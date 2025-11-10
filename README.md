@@ -34,6 +34,14 @@ Remove data leakage - Drop the duration column because it’s only known after t
 
 Encode the target - Convert the target variable from text (‘yes’, ‘no’) to numbers (1, 0)
 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/fa6302b4-41ff-410e-a39f-2cd6ba4c73d4"" style="width:22%; margin:5px;">
+  <img src="https://github.com/user-attachments/assets/2672c68e-9c51-4275-a559-1f13c7dd8ced" style="width:22%; margin:5px;">
+  <img src="https://github.com/user-attachments/assets/40ce2940-9732-42f5-b812-7388dbbd0aae" style="width:22%; margin:5px;">
+  <img src="https://github.com/user-attachments/assets/7ea4cc5b-c357-4ae1-8283-9b0b7ad7020f" style="width:22%; margin:5px;">
+</div>
+
+
 Mode impuation - For 'job', 'marital', 'housing', 'loan', 'education', 'default', fill the missing categories with the most common value (mode) so the data stays usable and balanced and we don't have to drop rows.
 
 Is missing data actually meaningful behavior ? is there meaning in missingness ? Check if what is missing is telling us something about customer response.
