@@ -20,7 +20,7 @@ Dataset comes from the UCI Machine Learning repository link. The data is from a 
 ### Data cleaning Plan (Feature Engineering)
 
 The dataset is highly imbalanced.
-<img src="https://github.com/user-attachments/assets/7425fa6f-6d44-48e3-9844-0306d83cb177" alt="Description" width="300"/>
+<img src="https://github.com/user-attachments/assets/7425fa6f-6d44-48e3-9844-0306d83cb177" alt="Description" width="500"/>
 
 Properly format data into numerical and categorical
 If any non numerical data appear in numerical features, replace with NaN
