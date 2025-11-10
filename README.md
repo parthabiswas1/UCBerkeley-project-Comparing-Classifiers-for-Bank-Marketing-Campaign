@@ -93,6 +93,8 @@ What is the baseline performance that my classifier should aim to beat? I took t
 
 <img width="1814" height="199" alt="image" src="https://github.com/user-attachments/assets/1f8c8467-8f17-472a-a05c-5b23b0a453c9" />
 
+<img width="1584" height="940" alt="image" src="https://github.com/user-attachments/assets/7efd7cf4-2df4-4db8-866d-5da2c94436e2" />
+
 ## Recommendations
 Hyperparameter tuning did not improve the models much, Decision Tree showed the best F1 Score improvement (+0.064)
 
