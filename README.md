@@ -19,6 +19,9 @@ Dataset comes from the UCI Machine Learning repository link. The data is from a 
 
 ### Data cleaning Plan (Feature Engineering)
 
+The dataset is highly imbalanced.
+<img width="1134" height="776" alt="image" src="https://github.com/user-attachments/assets/7425fa6f-6d44-48e3-9844-0306d83cb177" />
+
 Properly format data into numerical and categorical
 If any non numerical data appear in numerical features, replace with NaN
 Convert catagorical features to category data type
@@ -50,6 +53,7 @@ Model finetuning was long and did not complete in the instance of Support Vector
 I did not want to drop missing data. rows and reduce the scope of the dataset. I wanted to understand if missing data is acutally meaningful. Is data missing becaue of a reason ?
 <img width="590" height="528" alt="Screenshot 2025-11-09 at 11 46 32 PM" src="https://github.com/user-attachments/assets/77592f39-18a0-4a26-9671-be035850d086" />
 
+Notes The negative correaltions mean that if no previous contact result (poutcome is missing) prospect is less likly to create a FD When pday is missing (never contacted before) prospect is even less liker to create FD
 ## Obsevations 
 
 ### Baseline Model
